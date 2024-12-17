@@ -1,6 +1,6 @@
 Purpose - How it works
 HGF generative model and C library for JSON extraction are used externally.
-WHAT IS THE PURPOSE
+WHAT IS THE PURPOSE : HGF generative model is applied to get perceptual state and learning rate of the mice from experiment which is focused on decision making.
 The program is written with macOS so there might have file path issues with Windows since they are slightly different. The code is not run on Windows so if you have a error, it is probably about file path.
 HGF model and graphs are to estimate the perceptual state of the mouse during the experiment. It is independent of the sides. If the mouse is rewarded it is assumes the perception of the rewarding is percieved well, if the rewarding continues perceptual value(red line) increases since the consistency is increased. Learning rate(black line) increases when the mouse changes from nonrewarding to rewarding since it is assumed that the mouse learns how to get a reward. mu_3(first graph) and mu_2(second graph in a figure) graphs are for the perceptual state and learning rate. In the last graph these rates are same but fluctuates more since the volatility, decision error are also included.
 
